@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "crispr-be-sensor"
+version = "0.1.0"
+description = ""
+authors = ["Basheer Becerra <bbecerr@outlook.com>"]
+readme = "README.md"
+packages = [{include = "crispr_be_sensor"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
